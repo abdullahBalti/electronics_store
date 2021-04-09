@@ -149,20 +149,22 @@ a{
 	width: 40%;
 	font-size: 3rem;
 	color: #fff;
-	margin-left: 20px;
+	margin-left: 5vw;
+	text-transform: capitalize;	
 }
 .slider-img2 p{
 	width: 40%;
 	color: #fff;
-	margin-left: 20px;
+	margin-left: 5vw;
 	margin-top: 10px;
+	text-transform: capitalize;	
 }
 .slider-img2 a{
 	background-color:#4e7df1; 
 	color: #fff;
 	padding: 10px 20px;
 	border-radius: 5px;
-	margin-left: 20px;
+	margin-left: 5vw;
 	margin-top: 10px;
 }
 .slider-img3{
@@ -177,7 +179,7 @@ a{
 	color: red;
 }
 .slider-img3 h1{
-	margin-top: 8rem;
+	margin-top: 40vh;
 	font-size: 3.5rem;
 	color: black;
 }
@@ -196,6 +198,7 @@ a{
 .slider-img1 h1{
 	font-size: 3.5rem;
 	color: #ffff;
+	text-transform: capitalize;
 }
 .slider-img1 p{
 	margin: 20px 0px;
@@ -278,6 +281,12 @@ a{
 	border: 1px solid #c1bec9;
 	padding-bottom: 35px;
 }
+.owl-dots{
+	margin-top: 60vh !important;
+	position: absolute;
+	bottom: 4%;
+	left: 45%;
+}
 .cart-item-1{
 	width: 100%;
 	border: 1px solid #c1bec9;
@@ -291,8 +300,9 @@ a{
 .owl-nav{
 	/*background-color: red;*/
     position: absolute;
-    top: -3.5rem;
+    top: -4.5rem;
     right: 26px;
+    font-size: 2.5rem;
 	z-index: 1;
 }
 .cart-content{
